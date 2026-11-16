@@ -1,0 +1,319 @@
+2026-10-29 23:06:53,552 INFO    Server ready on port 12000
+2026-10-29 23:07:09,624 INFO    127.0.0.1:52108 connected
+2026-10-29 23:08:14,307 INFO    127.0.0.1:52108 cmd=upper status=ok data='hello'
+2026-10-29 23:08:24,263 INFO    127.0.0.1:52108 cmd=count status=ok data='a b c'
+2026-10-29 23:08:40,900 WARNING 127.0.0.1:52108 cmd=bababa status=error data='x'
+2026-10-29 23:08:54,611 WARNING 127.0.0.1:52108 cmd=nonesense status=error data='xx'
+2026-10-29 23:09:22,035 INFO    127.0.0.1:52185 connected
+2026-10-29 23:09:22,035 INFO    127.0.0.1:52185 cmd=upper status=ok data='client 8 message 0'
+2026-10-29 23:09:22,036 INFO    127.0.0.1:52186 connected
+2026-10-29 23:09:22,037 INFO    127.0.0.1:52185 cmd=upper status=ok data='client 8 message 1'
+2026-10-29 23:09:22,039 INFO    127.0.0.1:52188 connected
+2026-10-29 23:09:22,040 INFO    127.0.0.1:52186 cmd=upper status=ok data='client 3 message 0'
+2026-10-29 23:09:22,040 INFO    127.0.0.1:52185 cmd=upper status=ok data='client 8 message 2'
+2026-10-29 23:09:22,041 INFO    127.0.0.1:52188 cmd=upper status=ok data='client 1 message 0'
+2026-10-29 23:09:22,041 INFO    127.0.0.1:52189 connected
+2026-10-29 23:09:22,042 INFO    127.0.0.1:52190 connected
+2026-10-29 23:09:22,042 INFO    127.0.0.1:52186 cmd=upper status=ok data='client 3 message 1'
+2026-10-29 23:09:22,043 INFO    127.0.0.1:52185 cmd=upper status=ok data='client 8 message 3'
+2026-10-29 23:09:22,043 INFO    127.0.0.1:52191 connected
+2026-10-29 23:09:22,043 INFO    127.0.0.1:52189 cmd=upper status=ok data='client 7 message 0'
+2026-10-29 23:09:22,044 INFO    127.0.0.1:52188 cmd=upper status=ok data='client 1 message 1'
+2026-10-29 23:09:22,044 INFO    127.0.0.1:52190 cmd=upper status=ok data='client 4 message 0'
+2026-10-29 23:09:22,046 INFO    127.0.0.1:52187 connected
+2026-10-29 23:09:22,046 INFO    127.0.0.1:52186 cmd=upper status=ok data='client 3 message 2'
+2026-10-29 23:09:22,047 INFO    127.0.0.1:52185 cmd=upper status=ok data='client 8 message 4'
+2026-10-29 23:09:22,049 INFO    127.0.0.1:52192 connected
+2026-10-29 23:09:22,049 INFO    127.0.0.1:52191 cmd=upper status=ok data='client 5 message 0'
+2026-10-29 23:09:22,050 INFO    127.0.0.1:52189 cmd=upper status=ok data='client 7 message 1'
+2026-10-29 23:09:22,050 INFO    127.0.0.1:52193 connected
+2026-10-29 23:09:22,051 INFO    127.0.0.1:52188 cmd=upper status=ok data='client 1 message 2'
+2026-10-29 23:09:22,051 INFO    127.0.0.1:52190 cmd=upper status=ok data='client 4 message 1'
+2026-10-29 23:09:22,052 INFO    127.0.0.1:52194 connected
+2026-10-29 23:09:22,052 INFO    127.0.0.1:52187 cmd=upper status=ok data='client 6 message 0'
+2026-10-29 23:09:22,052 INFO    127.0.0.1:52186 cmd=upper status=ok data='client 3 message 3'
+2026-10-29 23:09:22,053 INFO    127.0.0.1:52192 cmd=upper status=ok data='client 9 message 0'
+2026-10-29 23:09:22,053 INFO    127.0.0.1:52185 disconnected after 5 request(s)
+2026-10-29 23:09:22,054 INFO    127.0.0.1:52191 cmd=upper status=ok data='client 5 message 1'
+2026-10-29 23:09:22,054 INFO    127.0.0.1:52189 cmd=upper status=ok data='client 7 message 2'
+2026-10-29 23:09:22,056 INFO    127.0.0.1:52193 cmd=upper status=ok data='client 2 message 0'
+2026-10-29 23:09:22,056 INFO    127.0.0.1:52188 cmd=upper status=ok data='client 1 message 3'
+2026-10-29 23:09:22,059 INFO    127.0.0.1:52194 cmd=upper status=ok data='client 0 message 0'
+2026-10-29 23:09:22,060 INFO    127.0.0.1:52190 cmd=upper status=ok data='client 4 message 2'
+2026-10-29 23:09:22,060 INFO    127.0.0.1:52187 cmd=upper status=ok data='client 6 message 1'
+2026-10-29 23:09:22,061 INFO    127.0.0.1:52186 cmd=upper status=ok data='client 3 message 4'
+2026-10-29 23:09:22,061 INFO    127.0.0.1:52192 cmd=upper status=ok data='client 9 message 1'
+2026-10-29 23:09:22,062 INFO    127.0.0.1:52191 cmd=upper status=ok data='client 5 message 2'
+2026-10-29 23:09:22,063 INFO    127.0.0.1:52189 cmd=upper status=ok data='client 7 message 3'
+2026-10-29 23:09:22,063 INFO    127.0.0.1:52193 cmd=upper status=ok data='client 2 message 1'
+2026-10-29 23:09:22,064 INFO    127.0.0.1:52188 cmd=upper status=ok data='client 1 message 4'
+2026-10-29 23:09:22,064 INFO    127.0.0.1:52194 cmd=upper status=ok data='client 0 message 1'
+2026-10-29 23:09:22,066 INFO    127.0.0.1:52190 cmd=upper status=ok data='client 4 message 3'
+2026-10-29 23:09:22,069 INFO    127.0.0.1:52187 cmd=upper status=ok data='client 6 message 2'
+2026-10-29 23:09:22,073 INFO    127.0.0.1:52186 disconnected after 5 request(s)
+2026-10-29 23:09:22,075 INFO    127.0.0.1:52192 cmd=upper status=ok data='client 9 message 2'
+2026-10-29 23:09:22,075 INFO    127.0.0.1:52191 cmd=upper status=ok data='client 5 message 3'
+2026-10-29 23:09:22,079 INFO    127.0.0.1:52189 cmd=upper status=ok data='client 7 message 4'
+2026-10-29 23:09:22,080 INFO    127.0.0.1:52193 cmd=upper status=ok data='client 2 message 2'
+2026-10-29 23:09:22,085 INFO    127.0.0.1:52188 disconnected after 5 request(s)
+2026-10-29 23:09:22,085 INFO    127.0.0.1:52194 cmd=upper status=ok data='client 0 message 2'
+2026-10-29 23:09:22,085 INFO    127.0.0.1:52187 cmd=upper status=ok data='client 6 message 3'
+2026-10-29 23:09:22,085 INFO    127.0.0.1:52190 cmd=upper status=ok data='client 4 message 4'
+2026-10-29 23:09:22,087 INFO    127.0.0.1:52192 cmd=upper status=ok data='client 9 message 3'
+2026-10-29 23:09:22,088 INFO    127.0.0.1:52191 cmd=upper status=ok data='client 5 message 4'
+2026-10-29 23:09:22,091 INFO    127.0.0.1:52189 disconnected after 5 request(s)
+2026-10-29 23:09:22,097 INFO    127.0.0.1:52193 cmd=upper status=ok data='client 2 message 3'
+2026-10-29 23:09:22,098 INFO    127.0.0.1:52194 cmd=upper status=ok data='client 0 message 3'
+2026-10-29 23:09:22,099 INFO    127.0.0.1:52187 cmd=upper status=ok data='client 6 message 4'
+2026-10-29 23:09:22,099 INFO    127.0.0.1:52190 disconnected after 5 request(s)
+2026-10-29 23:09:22,101 INFO    127.0.0.1:52192 cmd=upper status=ok data='client 9 message 4'
+2026-10-29 23:09:22,103 INFO    127.0.0.1:52191 disconnected after 5 request(s)
+2026-10-29 23:09:22,104 INFO    127.0.0.1:52193 cmd=upper status=ok data='client 2 message 4'
+2026-10-29 23:09:22,108 INFO    127.0.0.1:52194 cmd=upper status=ok data='client 0 message 4'
+2026-10-29 23:09:22,110 INFO    127.0.0.1:52187 disconnected after 5 request(s)
+2026-10-29 23:09:22,112 INFO    127.0.0.1:52192 disconnected after 5 request(s)
+2026-10-29 23:09:22,113 INFO    127.0.0.1:52193 disconnected after 5 request(s)
+2026-10-29 23:09:22,117 INFO    127.0.0.1:52194 disconnected after 5 request(s)
+2026-10-29 23:11:07,688 INFO    127.0.0.1:52108 disconnected after 4 request(s)
+2026-10-29 23:18:50,051 INFO    TLS server ready on port 12000
+2026-10-29 23:19:02,113 INFO    127.0.0.1:52558 connected (TLSv1.3, TLS_AES_256_GCM_SHA384)
+2026-10-29 23:19:14,587 WARNING 127.0.0.1:52558 cmd=uppper status=error data='hello'
+2026-10-29 23:19:21,479 INFO    127.0.0.1:52558 cmd=upper status=ok data='hello'
+2026-10-29 23:19:27,211 INFO    127.0.0.1:52558 cmd=lower status=ok data='hello'
+2026-10-29 23:19:32,263 INFO    127.0.0.1:52558 cmd=reverse status=ok data='uno'
+2026-10-29 23:19:59,403 WARNING 127.0.0.1:52598 TLS handshake failed: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1032)
+2026-10-29 23:20:53,373 INFO    127.0.0.1:52639 connected (TLSv1.3, TLS_AES_256_GCM_SHA384)
+2026-10-29 23:20:53,373 INFO    127.0.0.1:52641 connected (TLSv1.3, TLS_AES_256_GCM_SHA384)
+2026-10-29 23:20:53,373 INFO    127.0.0.1:52644 connected (TLSv1.3, TLS_AES_256_GCM_SHA384)
+2026-10-29 23:20:53,373 INFO    127.0.0.1:52646 connected (TLSv1.3, TLS_AES_256_GCM_SHA384)
+2026-10-29 23:20:53,374 INFO    127.0.0.1:52638 connected (TLSv1.3, TLS_AES_256_GCM_SHA384)
+2026-10-29 23:20:53,374 INFO    127.0.0.1:52640 connected (TLSv1.3, TLS_AES_256_GCM_SHA384)
+2026-10-29 23:20:53,375 INFO    127.0.0.1:52642 connected (TLSv1.3, TLS_AES_256_GCM_SHA384)
+2026-10-29 23:20:53,375 INFO    127.0.0.1:52645 connected (TLSv1.3, TLS_AES_256_GCM_SHA384)
+2026-10-29 23:20:53,376 INFO    127.0.0.1:52643 connected (TLSv1.3, TLS_AES_256_GCM_SHA384)
+2026-10-29 23:20:53,378 INFO    127.0.0.1:52641 cmd=upper status=ok data='client 1 message 0'
+2026-10-29 23:20:53,378 INFO    127.0.0.1:52647 connected (TLSv1.3, TLS_AES_256_GCM_SHA384)
+2026-10-29 23:20:53,378 INFO    127.0.0.1:52645 cmd=upper status=ok data='client 3 message 0'
+2026-10-29 23:20:53,378 INFO    127.0.0.1:52639 cmd=upper status=ok data='client 8 message 0'
+2026-10-29 23:20:53,378 INFO    127.0.0.1:52640 cmd=upper status=ok data='client 0 message 0'
+2026-10-29 23:20:53,378 INFO    127.0.0.1:52643 cmd=upper status=ok data='client 6 message 0'
+2026-10-29 23:20:53,379 INFO    127.0.0.1:52644 cmd=upper status=ok data='client 7 message 0'
+2026-10-29 23:20:53,379 INFO    127.0.0.1:52642 cmd=upper status=ok data='client 9 message 0'
+2026-10-29 23:20:53,379 INFO    127.0.0.1:52646 cmd=upper status=ok data='client 2 message 0'
+2026-10-29 23:20:53,379 INFO    127.0.0.1:52638 cmd=upper status=ok data='client 4 message 0'
+2026-10-29 23:20:53,380 INFO    127.0.0.1:52647 cmd=upper status=ok data='client 5 message 0'
+2026-10-29 23:20:53,380 INFO    127.0.0.1:52641 cmd=upper status=ok data='client 1 message 1'
+2026-10-29 23:20:53,380 INFO    127.0.0.1:52645 cmd=upper status=ok data='client 3 message 1'
+2026-10-29 23:20:53,381 INFO    127.0.0.1:52639 cmd=upper status=ok data='client 8 message 1'
+2026-10-29 23:20:53,382 INFO    127.0.0.1:52640 cmd=upper status=ok data='client 0 message 1'
+2026-10-29 23:20:53,382 INFO    127.0.0.1:52644 cmd=upper status=ok data='client 7 message 1'
+2026-10-29 23:20:53,383 INFO    127.0.0.1:52642 cmd=upper status=ok data='client 9 message 1'
+2026-10-29 23:20:53,383 INFO    127.0.0.1:52643 cmd=upper status=ok data='client 6 message 1'
+2026-10-29 23:20:53,384 INFO    127.0.0.1:52638 cmd=upper status=ok data='client 4 message 1'
+2026-10-29 23:20:53,384 INFO    127.0.0.1:52646 cmd=upper status=ok data='client 2 message 1'
+2026-10-29 23:20:53,386 INFO    127.0.0.1:52647 cmd=upper status=ok data='client 5 message 1'
+2026-10-29 23:20:53,386 INFO    127.0.0.1:52641 cmd=upper status=ok data='client 1 message 2'
+2026-10-29 23:20:53,390 INFO    127.0.0.1:52645 cmd=upper status=ok data='client 3 message 2'
+2026-10-29 23:20:53,390 INFO    127.0.0.1:52639 cmd=upper status=ok data='client 8 message 2'
+2026-10-29 23:20:53,391 INFO    127.0.0.1:52640 cmd=upper status=ok data='client 0 message 2'
+2026-10-29 23:20:53,392 INFO    127.0.0.1:52644 cmd=upper status=ok data='client 7 message 2'
+2026-10-29 23:20:53,392 INFO    127.0.0.1:52642 cmd=upper status=ok data='client 9 message 2'
+2026-10-29 23:20:53,393 INFO    127.0.0.1:52643 cmd=upper status=ok data='client 6 message 2'
+2026-10-29 23:20:53,393 INFO    127.0.0.1:52638 cmd=upper status=ok data='client 4 message 2'
+2026-10-29 23:20:53,394 INFO    127.0.0.1:52646 cmd=upper status=ok data='client 2 message 2'
+2026-10-29 23:20:53,395 INFO    127.0.0.1:52647 cmd=upper status=ok data='client 5 message 2'
+2026-10-29 23:20:53,399 INFO    127.0.0.1:52641 cmd=upper status=ok data='client 1 message 3'
+2026-10-29 23:20:53,399 INFO    127.0.0.1:52645 cmd=upper status=ok data='client 3 message 3'
+2026-10-29 23:20:53,399 INFO    127.0.0.1:52639 cmd=upper status=ok data='client 8 message 3'
+2026-10-29 23:20:53,400 INFO    127.0.0.1:52640 cmd=upper status=ok data='client 0 message 3'
+2026-10-29 23:20:53,401 INFO    127.0.0.1:52644 cmd=upper status=ok data='client 7 message 3'
+2026-10-29 23:20:53,402 INFO    127.0.0.1:52642 cmd=upper status=ok data='client 9 message 3'
+2026-10-29 23:20:53,402 INFO    127.0.0.1:52643 cmd=upper status=ok data='client 6 message 3'
+2026-10-29 23:20:53,403 INFO    127.0.0.1:52638 cmd=upper status=ok data='client 4 message 3'
+2026-10-29 23:20:53,404 INFO    127.0.0.1:52646 cmd=upper status=ok data='client 2 message 3'
+2026-10-29 23:20:53,407 INFO    127.0.0.1:52647 cmd=upper status=ok data='client 5 message 3'
+2026-10-29 23:20:53,408 INFO    127.0.0.1:52641 cmd=upper status=ok data='client 1 message 4'
+2026-10-29 23:20:53,412 INFO    127.0.0.1:52645 cmd=upper status=ok data='client 3 message 4'
+2026-10-29 23:20:53,413 INFO    127.0.0.1:52639 cmd=upper status=ok data='client 8 message 4'
+2026-10-29 23:20:53,414 INFO    127.0.0.1:52644 cmd=upper status=ok data='client 7 message 4'
+2026-10-29 23:20:53,415 INFO    127.0.0.1:52642 cmd=upper status=ok data='client 9 message 4'
+2026-10-29 23:20:53,417 INFO    127.0.0.1:52640 cmd=upper status=ok data='client 0 message 4'
+2026-10-29 23:20:53,418 INFO    127.0.0.1:52643 cmd=upper status=ok data='client 6 message 4'
+2026-10-29 23:20:53,418 INFO    127.0.0.1:52638 cmd=upper status=ok data='client 4 message 4'
+2026-10-29 23:20:53,422 INFO    127.0.0.1:52646 cmd=upper status=ok data='client 2 message 4'
+2026-10-29 23:20:53,424 INFO    127.0.0.1:52647 cmd=upper status=ok data='client 5 message 4'
+2026-10-29 23:20:53,425 INFO    127.0.0.1:52641 disconnected after 5 request(s)
+2026-10-29 23:20:53,426 INFO    127.0.0.1:52645 disconnected after 5 request(s)
+2026-10-29 23:20:53,427 INFO    127.0.0.1:52639 disconnected after 5 request(s)
+2026-10-29 23:20:53,427 INFO    127.0.0.1:52644 disconnected after 5 request(s)
+2026-10-29 23:20:53,428 INFO    127.0.0.1:52640 disconnected after 5 request(s)
+2026-10-29 23:20:53,430 INFO    127.0.0.1:52642 disconnected after 5 request(s)
+2026-10-29 23:20:53,434 INFO    127.0.0.1:52643 disconnected after 5 request(s)
+2026-10-29 23:20:53,436 INFO    127.0.0.1:52638 disconnected after 5 request(s)
+2026-10-29 23:20:53,436 INFO    127.0.0.1:52646 disconnected after 5 request(s)
+2026-10-29 23:20:53,436 INFO    127.0.0.1:52647 disconnected after 5 request(s)
+2026-10-29 23:25:33,647 ERROR   127.0.0.1:52558 connection error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-10-29 23:25:33,648 INFO    127.0.0.1:52558 disconnected after 4 request(s)
+2026-10-29 23:26:20,838 INFO    TLS server ready on port 12000
+2026-10-29 23:28:45,836 INFO    127.0.0.1:52927 connected (TLSv1.3, TLS_AES_256_GCM_SHA384)
+2026-10-29 23:28:52,029 INFO    127.0.0.1:52927 cmd=upper status=ok data='hi im dan'
+2026-10-29 23:29:00,726 INFO    127.0.0.1:52927 cmd=lower status=ok data='HI DAN'
+2026-10-29 23:29:12,096 INFO    127.0.0.1:52927 cmd=reverse status=ok data='hello world'
+2026-10-29 23:29:20,125 INFO    127.0.0.1:52927 cmd=title status=ok data='hello world'
+2026-10-29 23:29:27,888 INFO    127.0.0.1:52927 cmd=count status=ok data='hhhhh kj k k'
+2026-10-29 23:29:35,086 INFO    127.0.0.1:52927 disconnected after 5 request(s)
+2026-10-29 23:43:08,525 INFO    TLS server ready on 0.0.0.0:12000
+2026-10-29 23:43:18,175 INFO    127.0.0.1:53404 connected (TLSv1.3, TLS_AES_256_GCM_SHA384)
+2026-10-29 23:43:21,226 INFO    127.0.0.1:53404 cmd=upper status=ok data='hello'
+2026-10-29 23:43:47,603 INFO    127.0.0.1:53404 cmd=reverse status=ok data='hi'
+2026-10-29 23:44:01,522 INFO    127.0.0.1:53404 disconnected after 2 request(s)
+2026-10-30 08:21:33,841 INFO    Server stopped
+2026-10-30 08:54:25,207 INFO    TLS server ready on 0.0.0.0:12000
+2026-10-30 08:54:37,183 INFO    127.0.0.1:54186 connected (TLSv1.3, TLS_AES_256_GCM_SHA384)
+2026-10-30 08:54:53,013 INFO    127.0.0.1:54186 cmd=upper status=ok data='hello'
+2026-10-30 08:55:06,636 INFO    127.0.0.1:54186 cmd=lower status=ok data='HELLO'
+2026-10-30 08:55:19,972 INFO    127.0.0.1:54186 cmd=reverse status=ok data='hello world'
+2026-10-30 08:55:32,043 INFO    127.0.0.1:54186 cmd=title status=ok data='hello world'
+2026-10-30 08:55:45,889 INFO    127.0.0.1:54186 cmd=count status=ok data='hi im aaaaaaaaaaaaaa'
+2026-10-30 08:56:13,807 INFO    127.0.0.1:54259 connected (TLSv1.3, TLS_AES_256_GCM_SHA384)
+2026-10-30 08:56:13,807 INFO    127.0.0.1:54258 connected (TLSv1.3, TLS_AES_256_GCM_SHA384)
+2026-10-30 08:56:13,807 INFO    127.0.0.1:54260 connected (TLSv1.3, TLS_AES_256_GCM_SHA384)
+2026-10-30 08:56:13,818 INFO    127.0.0.1:54262 connected (TLSv1.3, TLS_AES_256_GCM_SHA384)
+2026-10-30 08:56:13,818 INFO    127.0.0.1:54263 connected (TLSv1.3, TLS_AES_256_GCM_SHA384)
+2026-10-30 08:56:13,819 INFO    127.0.0.1:54261 connected (TLSv1.3, TLS_AES_256_GCM_SHA384)
+2026-10-30 08:56:13,819 INFO    127.0.0.1:54264 connected (TLSv1.3, TLS_AES_256_GCM_SHA384)
+2026-10-30 08:56:13,819 INFO    127.0.0.1:54265 connected (TLSv1.3, TLS_AES_256_GCM_SHA384)
+2026-10-30 08:56:13,820 INFO    127.0.0.1:54266 connected (TLSv1.3, TLS_AES_256_GCM_SHA384)
+2026-10-30 08:56:13,821 INFO    127.0.0.1:54258 cmd=upper status=ok data='client 6 message 0'
+2026-10-30 08:56:13,821 INFO    127.0.0.1:54267 connected (TLSv1.3, TLS_AES_256_GCM_SHA384)
+2026-10-30 08:56:13,821 INFO    127.0.0.1:54264 cmd=upper status=ok data='client 7 message 0'
+2026-10-30 08:56:13,821 INFO    127.0.0.1:54262 cmd=upper status=ok data='client 9 message 0'
+2026-10-30 08:56:13,821 INFO    127.0.0.1:54261 cmd=upper status=ok data='client 8 message 0'
+2026-10-30 08:56:13,821 INFO    127.0.0.1:54266 cmd=upper status=ok data='client 5 message 0'
+2026-10-30 08:56:13,822 INFO    127.0.0.1:54263 cmd=upper status=ok data='client 2 message 0'
+2026-10-30 08:56:13,822 INFO    127.0.0.1:54260 cmd=upper status=ok data='client 1 message 0'
+2026-10-30 08:56:13,822 INFO    127.0.0.1:54259 cmd=upper status=ok data='client 3 message 0'
+2026-10-30 08:56:13,822 INFO    127.0.0.1:54265 cmd=upper status=ok data='client 4 message 0'
+2026-10-30 08:56:13,822 INFO    127.0.0.1:54267 cmd=upper status=ok data='client 0 message 0'
+2026-10-30 08:56:13,823 INFO    127.0.0.1:54258 cmd=upper status=ok data='client 6 message 1'
+2026-10-30 08:56:13,823 INFO    127.0.0.1:54264 cmd=upper status=ok data='client 7 message 1'
+2026-10-30 08:56:13,823 INFO    127.0.0.1:54262 cmd=upper status=ok data='client 9 message 1'
+2026-10-30 08:56:13,824 INFO    127.0.0.1:54261 cmd=upper status=ok data='client 8 message 1'
+2026-10-30 08:56:13,824 INFO    127.0.0.1:54266 cmd=upper status=ok data='client 5 message 1'
+2026-10-30 08:56:13,824 INFO    127.0.0.1:54263 cmd=upper status=ok data='client 2 message 1'
+2026-10-30 08:56:13,824 INFO    127.0.0.1:54260 cmd=upper status=ok data='client 1 message 1'
+2026-10-30 08:56:13,825 INFO    127.0.0.1:54259 cmd=upper status=ok data='client 3 message 1'
+2026-10-30 08:56:13,826 INFO    127.0.0.1:54265 cmd=upper status=ok data='client 4 message 1'
+2026-10-30 08:56:13,826 INFO    127.0.0.1:54267 cmd=upper status=ok data='client 0 message 1'
+2026-10-30 08:56:13,826 INFO    127.0.0.1:54258 cmd=upper status=ok data='client 6 message 2'
+2026-10-30 08:56:13,826 INFO    127.0.0.1:54264 cmd=upper status=ok data='client 7 message 2'
+2026-10-30 08:56:13,827 INFO    127.0.0.1:54262 cmd=upper status=ok data='client 9 message 2'
+2026-10-30 08:56:13,827 INFO    127.0.0.1:54261 cmd=upper status=ok data='client 8 message 2'
+2026-10-30 08:56:13,827 INFO    127.0.0.1:54266 cmd=upper status=ok data='client 5 message 2'
+2026-10-30 08:56:13,828 INFO    127.0.0.1:54263 cmd=upper status=ok data='client 2 message 2'
+2026-10-30 08:56:13,828 INFO    127.0.0.1:54260 cmd=upper status=ok data='client 1 message 2'
+2026-10-30 08:56:13,828 INFO    127.0.0.1:54259 cmd=upper status=ok data='client 3 message 2'
+2026-10-30 08:56:13,828 INFO    127.0.0.1:54265 cmd=upper status=ok data='client 4 message 2'
+2026-10-30 08:56:13,829 INFO    127.0.0.1:54267 cmd=upper status=ok data='client 0 message 2'
+2026-10-30 08:56:13,829 INFO    127.0.0.1:54258 cmd=upper status=ok data='client 6 message 3'
+2026-10-30 08:56:13,829 INFO    127.0.0.1:54264 cmd=upper status=ok data='client 7 message 3'
+2026-10-30 08:56:13,829 INFO    127.0.0.1:54262 cmd=upper status=ok data='client 9 message 3'
+2026-10-30 08:56:13,829 INFO    127.0.0.1:54261 cmd=upper status=ok data='client 8 message 3'
+2026-10-30 08:56:13,830 INFO    127.0.0.1:54266 cmd=upper status=ok data='client 5 message 3'
+2026-10-30 08:56:13,830 INFO    127.0.0.1:54263 cmd=upper status=ok data='client 2 message 3'
+2026-10-30 08:56:13,833 INFO    127.0.0.1:54260 cmd=upper status=ok data='client 1 message 3'
+2026-10-30 08:56:13,854 INFO    127.0.0.1:54259 cmd=upper status=ok data='client 3 message 3'
+2026-10-30 08:56:13,854 INFO    127.0.0.1:54267 cmd=upper status=ok data='client 0 message 3'
+2026-10-30 08:56:13,856 INFO    127.0.0.1:54264 cmd=upper status=ok data='client 7 message 4'
+2026-10-30 08:56:13,858 INFO    127.0.0.1:54261 cmd=upper status=ok data='client 8 message 4'
+2026-10-30 08:56:13,859 INFO    127.0.0.1:54263 cmd=upper status=ok data='client 2 message 4'
+2026-10-30 08:56:13,860 INFO    127.0.0.1:54260 cmd=upper status=ok data='client 1 message 4'
+2026-10-30 08:56:13,861 INFO    127.0.0.1:54262 cmd=upper status=ok data='client 9 message 4'
+2026-10-30 08:56:13,863 INFO    127.0.0.1:54267 cmd=upper status=ok data='client 0 message 4'
+2026-10-30 08:56:13,868 INFO    127.0.0.1:54264 disconnected after 5 request(s)
+2026-10-30 08:56:13,871 INFO    127.0.0.1:54261 disconnected after 5 request(s)
+2026-10-30 08:56:13,872 INFO    127.0.0.1:54263 disconnected after 5 request(s)
+2026-10-30 08:56:13,878 INFO    127.0.0.1:54260 disconnected after 5 request(s)
+2026-10-30 08:56:13,879 INFO    127.0.0.1:54265 cmd=upper status=ok data='client 4 message 3'
+2026-10-30 08:56:13,884 INFO    127.0.0.1:54267 disconnected after 5 request(s)
+2026-10-30 08:56:13,884 INFO    127.0.0.1:54259 cmd=upper status=ok data='client 3 message 4'
+2026-10-30 08:56:13,884 INFO    127.0.0.1:54262 disconnected after 5 request(s)
+2026-10-30 08:56:13,885 INFO    127.0.0.1:54265 cmd=upper status=ok data='client 4 message 4'
+2026-10-30 08:56:13,885 INFO    127.0.0.1:54258 cmd=upper status=ok data='client 6 message 4'
+2026-10-30 08:56:13,922 INFO    127.0.0.1:54259 disconnected after 5 request(s)
+2026-10-30 08:56:13,926 INFO    127.0.0.1:54265 disconnected after 5 request(s)
+2026-10-30 08:56:13,931 INFO    127.0.0.1:54258 disconnected after 5 request(s)
+2026-10-30 08:56:13,932 INFO    127.0.0.1:54266 cmd=upper status=ok data='client 5 message 4'
+2026-10-30 08:56:13,934 INFO    127.0.0.1:54266 disconnected after 5 request(s)
+2026-10-30 08:56:35,208 INFO    127.0.0.1:54283 connected (TLSv1.3, TLS_AES_256_GCM_SHA384)
+2026-10-30 08:56:35,209 INFO    127.0.0.1:54284 connected (TLSv1.3, TLS_AES_256_GCM_SHA384)
+2026-10-30 08:56:35,212 INFO    127.0.0.1:54285 connected (TLSv1.3, TLS_AES_256_GCM_SHA384)
+2026-10-30 08:56:35,212 INFO    127.0.0.1:54286 connected (TLSv1.3, TLS_AES_256_GCM_SHA384)
+2026-10-30 08:56:35,214 INFO    127.0.0.1:54290 connected (TLSv1.3, TLS_AES_256_GCM_SHA384)
+2026-10-30 08:56:35,215 INFO    127.0.0.1:54287 connected (TLSv1.3, TLS_AES_256_GCM_SHA384)
+2026-10-30 08:56:35,215 INFO    127.0.0.1:54288 connected (TLSv1.3, TLS_AES_256_GCM_SHA384)
+2026-10-30 08:56:35,217 INFO    127.0.0.1:54289 connected (TLSv1.3, TLS_AES_256_GCM_SHA384)
+2026-10-30 08:56:35,219 INFO    127.0.0.1:54291 connected (TLSv1.3, TLS_AES_256_GCM_SHA384)
+2026-10-30 08:56:35,220 INFO    127.0.0.1:54285 cmd=upper status=ok data='client 2 message 0'
+2026-10-30 08:56:35,220 INFO    127.0.0.1:54289 cmd=upper status=ok data='client 6 message 0'
+2026-10-30 08:56:35,221 INFO    127.0.0.1:54291 cmd=upper status=ok data='client 7 message 0'
+2026-10-30 08:56:35,221 INFO    127.0.0.1:54287 cmd=upper status=ok data='client 8 message 0'
+2026-10-30 08:56:35,221 INFO    127.0.0.1:54290 cmd=upper status=ok data='client 0 message 0'
+2026-10-30 08:56:35,221 INFO    127.0.0.1:54288 cmd=upper status=ok data='client 3 message 0'
+2026-10-30 08:56:35,221 INFO    127.0.0.1:54284 cmd=upper status=ok data='client 4 message 0'
+2026-10-30 08:56:35,221 INFO    127.0.0.1:54285 cmd=upper status=ok data='client 2 message 1'
+2026-10-30 08:56:35,222 INFO    127.0.0.1:54292 connected (TLSv1.3, TLS_AES_256_GCM_SHA384)
+2026-10-30 08:56:35,222 INFO    127.0.0.1:54283 cmd=upper status=ok data='client 1 message 0'
+2026-10-30 08:56:35,222 INFO    127.0.0.1:54286 cmd=upper status=ok data='client 5 message 0'
+2026-10-30 08:56:35,223 INFO    127.0.0.1:54289 cmd=upper status=ok data='client 6 message 1'
+2026-10-30 08:56:35,224 INFO    127.0.0.1:54292 cmd=upper status=ok data='client 9 message 0'
+2026-10-30 08:56:35,225 INFO    127.0.0.1:54291 cmd=upper status=ok data='client 7 message 1'
+2026-10-30 08:56:35,225 INFO    127.0.0.1:54287 cmd=upper status=ok data='client 8 message 1'
+2026-10-30 08:56:35,227 INFO    127.0.0.1:54288 cmd=upper status=ok data='client 3 message 1'
+2026-10-30 08:56:35,227 INFO    127.0.0.1:54285 cmd=upper status=ok data='client 2 message 2'
+2026-10-30 08:56:35,228 INFO    127.0.0.1:54283 cmd=upper status=ok data='client 1 message 1'
+2026-10-30 08:56:35,229 INFO    127.0.0.1:54284 cmd=upper status=ok data='client 4 message 1'
+2026-10-30 08:56:35,229 INFO    127.0.0.1:54292 cmd=upper status=ok data='client 9 message 1'
+2026-10-30 08:56:35,247 INFO    127.0.0.1:54287 cmd=upper status=ok data='client 8 message 2'
+2026-10-30 08:56:35,250 INFO    127.0.0.1:54288 cmd=upper status=ok data='client 3 message 2'
+2026-10-30 08:56:35,266 INFO    127.0.0.1:54289 cmd=upper status=ok data='client 6 message 2'
+2026-10-30 08:56:35,268 INFO    127.0.0.1:54283 cmd=upper status=ok data='client 1 message 2'
+2026-10-30 08:56:35,271 INFO    127.0.0.1:54290 cmd=upper status=ok data='client 0 message 1'
+2026-10-30 08:56:35,271 INFO    127.0.0.1:54292 cmd=upper status=ok data='client 9 message 2'
+2026-10-30 08:56:35,273 INFO    127.0.0.1:54287 cmd=upper status=ok data='client 8 message 3'
+2026-10-30 08:56:35,274 INFO    127.0.0.1:54288 cmd=upper status=ok data='client 3 message 3'
+2026-10-30 08:56:35,275 INFO    127.0.0.1:54289 cmd=upper status=ok data='client 6 message 3'
+2026-10-30 08:56:35,278 INFO    127.0.0.1:54283 cmd=upper status=ok data='client 1 message 3'
+2026-10-30 08:56:35,282 INFO    127.0.0.1:54285 cmd=upper status=ok data='client 2 message 3'
+2026-10-30 08:56:35,288 INFO    127.0.0.1:54292 cmd=upper status=ok data='client 9 message 3'
+2026-10-30 08:56:35,289 INFO    127.0.0.1:54287 cmd=upper status=ok data='client 8 message 4'
+2026-10-30 08:56:35,292 INFO    127.0.0.1:54286 cmd=upper status=ok data='client 5 message 1'
+2026-10-30 08:56:35,294 INFO    127.0.0.1:54289 cmd=upper status=ok data='client 6 message 4'
+2026-10-30 08:56:35,296 INFO    127.0.0.1:54283 cmd=upper status=ok data='client 1 message 4'
+2026-10-30 08:56:35,296 INFO    127.0.0.1:54285 cmd=upper status=ok data='client 2 message 4'
+2026-10-30 08:56:35,314 INFO    127.0.0.1:54292 cmd=upper status=ok data='client 9 message 4'
+2026-10-30 08:56:35,317 INFO    127.0.0.1:54287 disconnected after 5 request(s)
+2026-10-30 08:56:35,333 INFO    127.0.0.1:54286 cmd=upper status=ok data='client 5 message 2'
+2026-10-30 08:56:35,337 INFO    127.0.0.1:54289 disconnected after 5 request(s)
+2026-10-30 08:56:35,339 INFO    127.0.0.1:54283 disconnected after 5 request(s)
+2026-10-30 08:56:35,340 INFO    127.0.0.1:54285 disconnected after 5 request(s)
+2026-10-30 08:56:35,342 INFO    127.0.0.1:54292 disconnected after 5 request(s)
+2026-10-30 08:56:35,343 INFO    127.0.0.1:54284 cmd=upper status=ok data='client 4 message 2'
+2026-10-30 08:56:35,349 INFO    127.0.0.1:54288 cmd=upper status=ok data='client 3 message 4'
+2026-10-30 08:56:35,353 INFO    127.0.0.1:54291 cmd=upper status=ok data='client 7 message 2'
+2026-10-30 08:56:35,359 INFO    127.0.0.1:54290 cmd=upper status=ok data='client 0 message 2'
+2026-10-30 08:56:35,360 INFO    127.0.0.1:54286 cmd=upper status=ok data='client 5 message 3'
+2026-10-30 08:56:35,364 INFO    127.0.0.1:54284 cmd=upper status=ok data='client 4 message 3'
+2026-10-30 08:56:35,367 INFO    127.0.0.1:54288 disconnected after 5 request(s)
+2026-10-30 08:56:35,368 INFO    127.0.0.1:54291 cmd=upper status=ok data='client 7 message 3'
+2026-10-30 08:56:35,369 INFO    127.0.0.1:54290 cmd=upper status=ok data='client 0 message 3'
+2026-10-30 08:56:35,387 INFO    127.0.0.1:54286 cmd=upper status=ok data='client 5 message 4'
+2026-10-30 08:56:35,390 INFO    127.0.0.1:54291 cmd=upper status=ok data='client 7 message 4'
+2026-10-30 08:56:35,405 INFO    127.0.0.1:54290 cmd=upper status=ok data='client 0 message 4'
+2026-10-30 08:56:35,409 INFO    127.0.0.1:54286 disconnected after 5 request(s)
+2026-10-30 08:56:35,411 INFO    127.0.0.1:54291 disconnected after 5 request(s)
+2026-10-30 08:56:35,412 INFO    127.0.0.1:54290 disconnected after 5 request(s)
+2026-10-30 08:56:35,414 INFO    127.0.0.1:54284 cmd=upper status=ok data='client 4 message 4'
+2026-10-30 08:56:35,416 INFO    127.0.0.1:54284 disconnected after 5 request(s)
+2026-10-30 08:56:47,919 INFO    127.0.0.1:54186 disconnected after 5 request(s)
+2026-10-30 08:56:48,222 INFO    Server stopped
